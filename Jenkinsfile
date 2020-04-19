@@ -6,6 +6,7 @@ def tools = new org.devops.tools()
 // 定义一个变量，来引用代码仓库中的/src/org/devops/tools.groovy，这里不用写src
 
 String workspace = "/opt/jenkins/workspace"
+hello()
 
 //Pipeline
 pipeline {
