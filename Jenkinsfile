@@ -71,6 +71,7 @@ pipeline {
                                 print("代码扫描")
                                 //tools.PrintMes("代码扫描",'green')
                                 tools.printMessage("This is my lib test!")
+                                tools.PrintMes("test color",red)
                             }
                         }
                     }
